@@ -1267,9 +1267,12 @@ audio {
 .cake-cover {
 	margin-top: 50px;
 }
-.message {
-	margin-top: 200px;
+._message {
+	/* margin-top: 200px; */
 	display: none;
+	position: absolute;
+	top: 1%;
+	left: 0;
 }
 .message p {
 	font-family: 'Signika', sans-serif;
